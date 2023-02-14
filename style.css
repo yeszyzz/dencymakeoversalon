@@ -1,0 +1,65 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+.man-row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.man-box{
+	flex-basis: 15%;
+	box-shadow: 2px 3px 5px grey;
+	padding: 10px;
+	text-align: center;
+}
+
+.man-box img{
+	width: 100%;
+}
+.man-box h2{
+	margin:20px 0px;
+}
+.man-box:hover{
+	transform: translateY(-20px);
+	transition: 0.4s ease;
+}
+a:hover{
+       background-color:black;
+}
+
+.black{
+      background:black;
+}
+
+.white{
+      color:white;
+}
+.anchor{ 
+       text-decoration:none;
+}
+video{
+      margin-left:150px;    
+      margin-right:70px;
+}
+.video{
+       margin-left:330px;    
+  
+}
+.map{
+     width:100px;
+     height:100vh;
+     display:flex;
+     align-item:center;
+     justify-container:center;
+     flex-direction:column;
+}
+
+iframe{
+      width:1550;
+      height:500;
+      filter:invert(100%);
+}
+
